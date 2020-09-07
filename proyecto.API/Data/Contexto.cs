@@ -8,5 +8,7 @@ namespace proyecto.API.Data
         public Contexto(DbContextOptions<Contexto> options) : base(options){ }
 
         public DbSet<Valores> Valores { get; set; }
+
+        public DbSet<Usuario> Usuarios { get; set; }
     }
 }

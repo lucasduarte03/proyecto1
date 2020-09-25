@@ -20,7 +20,7 @@ namespace proyecto.API.Controllers
 
         }
 
-        // GET api/values
+        
         [HttpGet]
         public async Task<IActionResult> GetValores()
         {
@@ -29,7 +29,7 @@ namespace proyecto.API.Controllers
             return Ok(valores);
         }
 
-        // GET api/values/5
+        
         [HttpGet("{id}")]
         public async Task<IActionResult> GetValor(int id)
         {
